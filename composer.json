@@ -1,11 +1,11 @@
 {
-    "name": "eg9yigf4lgf4/behat-html-formatter",
-    "description": "This will create a html formatter for Behat.",
+    "name": "eg9yigf4lgf4/behat-testomat-formatter",
+    "description": "This will create a testomat formatter for Behat.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Neal Vanmeert",
-            "email": "neal@emuse.be"
+            "name": "Test",
+            "email": "test@test.com"
         }
     ],
     "require": {
