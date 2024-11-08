@@ -420,8 +420,16 @@ class BehatHTMLFormatter implements Formatter
 
         $params = [];
 
+        if (getenv('CI_JOB_URL')) {
+            $params['ci_build_url'] = trim(getenv('CI_JOB_URL'));
+        }
+
         if (getenv('TESTOMATIO_RUNGROUP_TITLE')) {
             $params['group_title'] = trim(getenv('TESTOMATIO_RUNGROUP_TITLE'));
+        }
+
+        if (getenv('TESTOMATIO_LABEL')) {
+            $params['label'] = trim(getenv('TESTOMATIO_LABEL'));
         }
 
         if (getenv('TESTOMATIO_ENV')) {
@@ -508,6 +516,8 @@ class BehatHTMLFormatter implements Formatter
         $example = '';
         $testTitle = $outline->getTitle();
         if($this->current_outline !== null) {
+            echo "Current outline object: ".(json_encode($this->current_outline));
+
             $example = '';
             $examples = explode('|', $outline->getTitle());
             foreach ($examples as $example) {
