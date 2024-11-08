@@ -1,6 +1,6 @@
 <?php
 
-namespace emuse\BehatHTMLFormatter\Context;
+namespace eG9yIGF4LGF4\BehatHTMLFormatter\Context;
 
 use Behat\MinkExtension\Context\RawMinkContext;
 

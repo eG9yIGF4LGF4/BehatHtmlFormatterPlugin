@@ -8,7 +8,7 @@
             html:
                 output_path: %paths.base%/build
         extensions:
-            emuse\BehatHTMLFormatter\BehatHTMLFormatterExtension:
+            eG9yIGF4LGF4\BehatHTMLFormatter\BehatHTMLFormatterExtension:
                 name: html
                 renderer: Twig
                 file_name: Index

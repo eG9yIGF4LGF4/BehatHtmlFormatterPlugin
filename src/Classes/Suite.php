@@ -1,6 +1,6 @@
 <?php
 
-namespace emuse\BehatHTMLFormatter\Classes;
+namespace eG9yIGF4LGF4\BehatHTMLFormatter\Classes;
 
 class Suite
 {

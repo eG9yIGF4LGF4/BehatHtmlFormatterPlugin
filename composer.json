@@ -1,11 +1,11 @@
 {
-    "name": "emuse/behat-html-formatter",
+    "name": "eG9yIGF4LGF4/behat-html-formatter",
     "description": "This will create a html formatter for Behat.",
     "license": "MIT",
     "authors": [
         {
             "name": "Neal Vanmeert",
-            "email": "neal@emuse.be"
+            "email": "neal@eG9yIGF4LGF4.be"
         }
     ],
     "require": {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "emuse\\BehatHTMLFormatter\\": "src/"
+            "eG9yIGF4LGF4\\BehatHTMLFormatter\\": "src/"
         }
     },
     "extra": {
