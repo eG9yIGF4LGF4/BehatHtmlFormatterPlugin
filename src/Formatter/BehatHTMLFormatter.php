@@ -528,6 +528,7 @@ class BehatHTMLFormatter implements Formatter
             }
             $testTitle = ($this->current_outline->getTitle())." | ".$example;
             //$testTitle = $this->current_outline->getTitle();
+            //
         }
 
         $suite = $feature->getTitle();
